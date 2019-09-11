@@ -4,11 +4,12 @@
     Fonts: Raleway & Open Sans
     ----------------------------------------
     Colors:
-        Moon Yellow:         #f4c613
+        Yellow Orange:       #FFBC42
         Grey:                #212226
         White Smoke:         #f4f4f4
         White:               #fff
-        Black:               #000   
+        Black:               #000 
+        Sapphire Blue        #006BA6
 ============================================ */
 
 
@@ -177,8 +178,8 @@ section {
 .btn-yellow:hover,
 .btn-yellow:focus {
     color: #fff;
-    background-color: #212226;
-    border: 1px solid #212226;
+    background-color: #006BA6;
+    border: 1px solid #006BA6;
 }
 
 .btn-white {
@@ -203,7 +204,6 @@ section {
     font-size: 22px;
     display: none;
 }
-
 
 /* =========================================
                 Arrow Down
@@ -250,7 +250,7 @@ section {
 ============================================ */
 
 .vertical-heading h5 {
-    color: #f4c613;
+    color: #006BA6;
     font-size: 14px;
     font-weight: 500;
     text-transform: uppercase;
@@ -280,7 +280,7 @@ section {
 
 .horizontal-heading h5 {
     font-size: 16px;
-    color: #f4c613;
+    color: #006BA6;
     text-transform: uppercase;
     display: inline-block;
     margin-bottom: 10px;
@@ -326,6 +326,7 @@ section {
 .about-item i {
     font-size: 42px;
     margin: 0;
+    color: #006BA6;
 }
 
 .about-item h3 {
@@ -517,7 +518,7 @@ ul.social-list li:nth-child(3) a:hover {
     font-size: 11px;
     font-weight: 100;
     font-family: "Open Sans", sans-serif;
-    background: #212226;
+    background: #006BA6;
     padding: 3px;
     position: absolute;
     left: 97%;
@@ -526,7 +527,7 @@ ul.social-list li:nth-child(3) a:hover {
 
 .progress-bar span:before {
     content: "";
-    border-top: 8px solid #212226;
+    border-top: 8px solid #006BA6;
     border-left: 6px solid transparent;
     border-right: 6px solid transparent;
     position: absolute;
@@ -627,7 +628,7 @@ ul.social-list li:nth-child(3) a:hover {
 #services-tabs ul li a {
     font-family: "Raleway", sans-serif;
     font-size: 13px;
-    color: #212226;
+    color: #006BA6;
     text-transform: uppercase;
     font-weight: 400;
     padding: 0;
@@ -644,6 +645,10 @@ ul.social-list li:nth-child(3) a:hover {
     padding-bottom: 5px;
     -webkit-transition: border-color 300ms linear;
     transition: border-color 300ms linear;
+}
+
+#services-tabs ul li a:hover {
+    color: #f4c613; 
 }
 
 .service-tab .col-md-6 {
@@ -710,6 +715,7 @@ ul.social-list li:nth-child(3) a:hover {
 
 #isotope-filters button {
     font-family: "Raleway", sans-serif;
+    color: #006BA6;
     font-size: 12px;
     font-weight: 700;
     text-transform: uppercase;
@@ -718,6 +724,10 @@ ul.social-list li:nth-child(3) a:hover {
     box-shadow: none;
     padding-right: 35px;
     outline: 0;
+}
+
+#isotope-filters button:hover {
+    color: #f4c613;
 }
 
 #isotope-filters button span {
@@ -1059,14 +1069,18 @@ ul.social-list li:nth-child(3) a:hover {
 
 .stats-item:hover {
     background: #f4c613;
+    color: #006BA6;
 }
 
 .stats-item:hover i {
-    color: #212226;
+    color: #006BA6;
     -webkit-transform: translateY(-20px);
     transform: translateY(-20px);
 }
 
+.stats-item:hover p {
+    color: #006BA6;
+}
 
 /* =========================================
                 Clients
@@ -1141,7 +1155,7 @@ ul.social-list li:nth-child(3) a:hover {
 }
 
 .blog-post a:hover {
-    color: #212226;
+    color: #006BA6;
 }
 
 .blog-post .post-meta {
